@@ -9,8 +9,8 @@ if (field1 && field2) {
 
 // 2
 
-let number1 = 8;
-const number2 = 9;
+const number1 = prompt("Введіть перше число:");
+const number2 = prompt("Введіть друге число:");
 
 if (number1 + number2 > 10) {
   alert("Сума більша за 10");
