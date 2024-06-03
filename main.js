@@ -11,12 +11,15 @@ if (field1 && field2) {
 
 const number1 = prompt("Введіть перше число:");
 const number2 = prompt("Введіть друге число:");
+const num1 = Number(number1);
+const num2 = Number(number2);
 
-if (number1 + number2 > 10) {
+if (num1 + num2 > 10) {
   alert("Сума більша за 10");
 } else {
   alert("Сума менша або дорівнює 10");
 }
+
 
 // 3
 
